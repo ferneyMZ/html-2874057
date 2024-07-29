@@ -1,0 +1,19 @@
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color:crimson;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color:rgb(14, 34, 61);
+    margin-bottom: 15px;
+  }
+  h2{
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color:rgb(162, 161, 152);
+    margin-bottom: 25px;
+  }

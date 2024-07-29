@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de Registro de Usuarios</h2>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+        <label for="documento">Documento:</label>
+        <input type="text" id="documento" name="documento" required><br><br>
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required><br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" required><br><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

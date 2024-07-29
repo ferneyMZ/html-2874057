@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(210, 210, 165);
+    margin: 2;
+    padding: 2;
+}
+.container {
+width: 70%;
+margin: 2 auto;
+background-color: black;
+padding: 20px;
+}
+h1{
+    color:darkred
+}
+.descripcion{
+    font-size: 1.2em;
+    color: #666;
+  }
+  button {
+    background-color: black;
+    color: #fff;
+      padding: 10px 20px;
+    font-size: 1em;
+  } 
+
+
